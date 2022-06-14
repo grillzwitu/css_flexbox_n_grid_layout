@@ -1,0 +1,121 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ nav button {
+    background-color: chocolate;
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+    border-color: chocolate;
+    font-family: "Lexend Deca";
+ }
+
+ main {
+    padding: 65px 30px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sub-section {
+    width: 25%;
+    padding: 40px 70px;
+}
+
+ /*
+ .circle {
+     width: 30px;
+     height: 30px;
+     margin-bottom: 30px;
+     border-radius: 50%;
+     background-color: hsla(0, 10%, 69%, 0.75);
+ }
+ */
+
+.sub-section img {
+     width: 55px;
+     margin-bottom: 30px;
+ }
+
+ h1 {
+     font-family: "Big Shoulders Display";
+     font-weight: 700;
+     margin-bottom: 30px;
+     color: hsl(0, 0%, 95%);
+ }
+
+ p {
+     color: hsla(0, 0%, 100%, 0.75);
+     font-family: "Lexend Deca";
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 25px;
+     height: 100px;
+ }
+
+ .detail-btn {
+     background-color: hsl(0, 0%, 95%);
+     border-color: hsl(0, 0%, 95%);
+     font-size: 1em;
+     padding: 7px 25px;
+     margin: 100px 0 20px;
+     border-radius: 30px;
+     cursor: pointer;
+ }
+
+ .sedan {
+     background-color: hsl(31, 77%, 52%);
+     border-radius: 10px 0 0 10px;
+ }
+
+ .sedan button {
+     color: hsl(31, 77%, 52%);
+     font-family: "Lexend Deca";
+     font-weight: 400;
+     transition: 400ms;
+ }
+
+ .sedan button:hover {
+     background-color: hsl(31, 77%, 52%);
+     color: hsl(0, 0%, 95%);
+ }
+
+ .suv {
+     background-color: hsl(184, 100%, 22%);
+ }
+
+ .suv button {
+     color: hsl(184, 100%, 22%);
+     font-family: "Lexend Deca";
+     font-weight: 400;
+     transition: 400ms;
+ }
+
+ .suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+ .luxury {
+     background-color: hsl(179, 100%, 13%);
+     border-radius: 0 10px 10px 0;
+ }
+
+ .luxury button {
+     color: hsl(179, 100%, 13%);
+     font-family: "Lexend Deca";
+     font-weight: 400;
+     transition: 400ms;
+ }
+
+ .luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}

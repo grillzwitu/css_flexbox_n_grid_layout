@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(22, 47, 77, 0.829);
+}
+
+nav button {
+    background-color: chocolate;
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+    border-color: chocolate;
+    font-family: "Lexend Deca";
+ }
+
+main {
+    width: 100%;
+    padding: 40px 150px;
+    display: grid;
+    grid-template-columns: 4fr;
+    gap: 1em;
+}
+
+.container-1 {
+    width: 100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2.7fr 1.3fr;
+    gap: 1em;
+}
+
+.container-2 {
+    width: 100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1em;
+}
+
+.blue-container {
+    display: grid;
+    grid-template-rows: 1.7fr 2.3fr;
+    gap: 1em;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.yellow {
+    background-color: orange;
+    width: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: deepskyblue;
+    width: 100%;
+}
