@@ -29,16 +29,6 @@
     padding: 40px 70px;
 }
 
- /*
- .circle {
-     width: 30px;
-     height: 30px;
-     margin-bottom: 30px;
-     border-radius: 50%;
-     background-color: hsla(0, 10%, 69%, 0.75);
- }
- */
-
 .sub-section img {
      width: 55px;
      margin-bottom: 30px;
@@ -82,10 +72,15 @@
      transition: 400ms;
  }
 
- .sedan button:hover {
+/* .sedan button:hover {
      background-color: hsl(31, 77%, 52%);
      color: hsl(0, 0%, 95%);
  }
+*/
+ .sedan button:active {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
 
  .suv {
      background-color: hsl(184, 100%, 22%);
@@ -98,7 +93,13 @@
      transition: 400ms;
  }
 
- .suv button:hover {
+/* .suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+*/
+
+.suv button:active {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
 }
@@ -115,7 +116,13 @@
      transition: 400ms;
  }
 
- .luxury button:hover {
+/* .luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+*/
+
+.luxury button:active {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
 }
