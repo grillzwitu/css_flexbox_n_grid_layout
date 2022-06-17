@@ -14,7 +14,7 @@
  }
 
  main {
-    padding: 65px 30px;
+    padding: 2% 10%;
     width: 100%;
 }
 
@@ -22,40 +22,43 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 100%;
 }
 
 .sub-section {
-    width: 25%;
-    padding: 40px 70px;
+    width: 30%;
+    padding: 2% 3%;
+    height: 100%;
 }
 
 .sub-section img {
-     width: 55px;
-     margin-bottom: 30px;
+     width: 22%;
+     margin: 10% 0 15%;
  }
 
  h1 {
      font-family: "Big Shoulders Display";
      font-weight: 700;
-     margin-bottom: 30px;
+     margin-bottom: 15%;
+     font-size: 2em;
      color: hsl(0, 0%, 95%);
  }
 
  p {
      color: hsla(0, 0%, 100%, 0.75);
      font-family: "Lexend Deca";
-     font-size: 15px;
+     font-size: 1em;
      font-weight: 400;
-     line-height: 25px;
-     height: 100px;
+     line-height: 150%;
+     height: 260px;
  }
 
  .detail-btn {
      background-color: hsl(0, 0%, 95%);
      border-color: hsl(0, 0%, 95%);
-     font-size: 1em;
-     padding: 7px 25px;
-     margin: 100px 0 20px;
+     font-size: 0.9em;
+     padding: 3% 15%;
+     margin: 0 0 10%;
      border-radius: 30px;
      cursor: pointer;
  }
@@ -125,4 +128,85 @@
 .luxury button:active {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 900px) {
+
+    main {
+        padding: 2% 5%;
+        width: 100%;
+    }
+    
+    .sub-section{
+        padding: 4% 3%;
+    }
+    .sub-section img {
+        width: 32%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-section {
+        width: 65%;
+        padding: 7% 5%;
+    }
+
+    .sub-section img {
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .sedan {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .sub-section img {
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.8em;
+        height: 200px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .sub-section img {
+        width: 35%;
+    }
+
+    .detail-btn {
+        font-size: 0.7em;
+    }    
 }
